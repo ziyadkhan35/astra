@@ -1,9 +1,7 @@
-import { useRouter } from 'next/router'
-import React, { useState } from 'react'
+import React from 'react'
 import Link from 'next/link'
 
 const Meal = (props) => {
-    const router = useRouter()
     const { strMeal, strInstructions, strMealThumb, strArea } = props.meal[0]
   return (
     <>

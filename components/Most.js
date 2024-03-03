@@ -1,9 +1,6 @@
 import React from 'react'
 
 const Most = (props) => {
-    // const most = props.meal[0]
-     //const { strMeal, strInstructions, strMealThumb, strTags, strArea } = props.meal[0]
-    // console.log(most);
   return (
     <>
     <div className="flex flex-col px-10 mx-10 mt-10">

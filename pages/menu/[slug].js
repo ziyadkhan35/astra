@@ -1,5 +1,4 @@
 import Menu from '@/components/Menu';
-import Test from '@/components/test';
 import React from 'react'
 
 const menu = ({data}) => {

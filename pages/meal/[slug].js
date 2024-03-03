@@ -1,6 +1,5 @@
 import Ingredients from '@/components/Ingredients'
 import Meal from '@/components/Meal'
-import Most from '@/components/Most'
 import React from 'react'
 
 const meal = ({data}) => {
