@@ -33,7 +33,7 @@ const Menu = (props) => {
         </div>
 
         {/* Menu */}
-        <div className="flex flex-col gap-3 border font-jaldi w-3/4 text-lg px-5 py-3 mb-5 h-96 overflow-auto">
+        <div className="flex flex-col gap-3 border font-jaldi w-3/4 text-lg px-1 sm:px-5 py-3 mb-5 h-96 overflow-auto">
             
                 {/* Name and Price */}
                 {props.data.meals.map((meal)=>(  

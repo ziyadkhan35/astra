@@ -15,6 +15,7 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        {/* Vercel Speed Insights */}
         <SpeedInsights />
       </body>
     </Html>
