@@ -6,7 +6,7 @@ const Menu = (props) => {
 
   return (
     <>
-    <div className="flex flex-col items-center text-smoke relative">
+    <div className="flex flex-col items-center text-smoke relative px-1">
         <div className="bg-black absolute -z-10 h-full w-full">
             <img className='opacity-40 h-full w-full object-cover' src="/background/backgroundMenu.jpg" alt="" />
         </div>
@@ -33,7 +33,7 @@ const Menu = (props) => {
         </div>
 
         {/* Menu */}
-        <div className="flex flex-col gap-3 border font-jaldi w-3/4 text-lg px-1 sm:px-5 py-3 mb-5 h-96 overflow-auto">
+        <div className="flex flex-col gap-3 border font-jaldi w-full sm:w-3/4 text-lg px-1 sm:px-5 py-3 mb-5 h-96 overflow-auto">
             
                 {/* Name and Price */}
                 {props.data.meals.map((meal)=>(  
