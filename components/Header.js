@@ -29,12 +29,13 @@ const Header = () => {
   }
 
 
+
   return (
     <>
     {/* Navbar Desktop */}
     <nav className='fixed top-0 flex z-10 items-center justify-between w-full px-2 lg:px-10 py-2 md:py-3 duration-500' ref={navbar}>
       {/* Logo */}
-      <a href="/" className='font-jockey uppercase text-xl sm:text-4xl md:text-5xl text-white tracking-wide border-b-2 sm:pb-1'>ASTRA</a>
+      <a href="/" className='font-jockey uppercase text-2xl sm:text-4xl md:text-5xl text-white tracking-wide border-b-2 sm:pb-1'>ASTRA</a>
 
       {/* Menu */}
       <div className='hidden md:flex'>
@@ -46,19 +47,19 @@ const Header = () => {
       </div>
         
       {/* Bars Icon*/}
-      <button onClick={()=>toggleMenu()} className='group block md:hidden text-smoke'>
+      <button onClick={()=>toggleMenu()} className='group block md:hidden text-smoke text-xl'>
         <i className="fa-solid fa-bars-staggered"></i>
       </button>
 
     </nav>
 
     {/* Navbar Mobile */}
-      <nav ref={mobileMenu} className='flex flex-col fixed h-screen gap-2 top-0 -right-full bg-body z-10 py-2 w-3/4 duration-300 rounded-sm'>
-        <button onClick={()=>toggleMenu()} className='text-smoke text-end text-xl me-4'>
+      <nav ref={mobileMenu} className='flex flex-col fixed h-screen -right-full gap-2 top-0 bg-body z-10 py-2 w-3/4 duration-300 rounded-sm'>
+        <button onClick={()=>toggleMenu()} className='text-smoke text-end text-2xl me-4'>
           <i className="fa-solid fa-xmark"></i>
         </button>
 
-        <div className="flex flex-col gap-3 items-end me-4 font-jaldi mt-2 sm:text-xl">
+        <div className="flex flex-col gap-3 items-end me-4 font-jaldi mt-2 text-lg sm:text-xl">
           <Link href='/' className='text-smoke hover:text-hover-smoke duration-150'>Home</Link>
           <Link href='/reservation' className='text-smoke hover:text-hover-smoke duration-150'>Reservation</Link>
           <Link href='/branches' className='text-smoke hover:text-hover-smoke duration-150'>Branches</Link>
@@ -66,7 +67,7 @@ const Header = () => {
           <Link href='#contact' className='text-smoke hover:text-hover-smoke duration-150'>Contact</Link>
         </div>
 
-        <div className="flex justify-end me-4 gap-2 my-3 text-xs sm:text-sm">
+        <div className="flex justify-end me-4 gap-2 my-3 text-sm">
           <i className="fa-brands fa-instagram text-golden hover:text-smoke duration-300"></i>
           <i className="fa-brands fa-facebook text-golden hover:text-smoke duration-300"></i>
           <i className="fa-brands fa-whatsapp text-golden hover:text-smoke duration-300"></i>

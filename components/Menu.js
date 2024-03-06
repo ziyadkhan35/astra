@@ -10,7 +10,7 @@ const Menu = (props) => {
         <div className="bg-black absolute -z-10 h-full w-full">
             <img className='opacity-40 h-full w-full object-cover' src="/background/backgroundMenu.jpg" alt="" />
         </div>
-        <h1 className='font-jockey text-xl mb-6 md:text-4xl lg:text-6xl mt-24'>Our Menu</h1>
+        <h1 className='font-jockey text-2xl mb-4 sm:mb-6 md:text-4xl lg:text-6xl mt-16 sm:mt-24'>Our Menu</h1>
 
         <div className="flex flex-col items-center font-jaldi mb-6">
             <p className='text-sm mb-2'>Please select a category</p>

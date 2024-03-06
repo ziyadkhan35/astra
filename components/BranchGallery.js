@@ -42,8 +42,8 @@ const BranchGallery = () => {
         <div key={branch.id} className="relative overflow-hidden bg-black flex-shrink-0 w-full">
           <img className='w-full object-cover h-screen -z-10 opacity-70' src={branch.image} alt="" />
           
-          <button onClick={()=>scrollLeft()} className={see ? 'hidden absolute left-0 top-1/2 ms-10' : 'absolute left-0 top-1/2 ms-3 sm:ms-10'}><i className="fa-solid fa-chevron-left text-2xl sm:text-4xl  md:text-6xl text-smoke"></i></button>
-          <button onClick={()=>scrollRight()} className={see ? 'hidden absolute right-0 top-1/2 me-10' : 'absolute right-0 top-1/2 me-3 sm:me-10'}><i className="fa-solid fa-chevron-right text-2xl sm:text-4xl  md:text-6xl text-smoke"></i></button>
+          <button onClick={()=>scrollLeft()} className={see ? 'hidden' : 'absolute left-0 top-1/2 ms-3 sm:ms-10'}><i className="fa-solid fa-chevron-left text-2xl sm:text-4xl  md:text-6xl text-smoke"></i></button>
+          <button onClick={()=>scrollRight()} className={see ? 'hidden' : 'absolute right-0 top-1/2 me-3 sm:me-10'}><i className="fa-solid fa-chevron-right text-2xl sm:text-4xl  md:text-6xl text-smoke"></i></button>
 
           <div ref={moveDiv} className="flex flex-col absolute w-full duration-300" style={see ? {bottom: 0} : myStyle}>
             <div className="flex justify-center">

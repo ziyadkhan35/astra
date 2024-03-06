@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-    <div id='contact' className="flex flex-col font-jaldi text-smoke md:text-lg pb-16 px-2 sm:px-5 lg:px-10 py-8 sm:py-12 md:py-16 bg-[#021127]">
+    <div id='contact' className="flex flex-col font-jaldi text-smoke md:text-lg px-2 sm:px-5 lg:px-10 pt-8 sm:py-12 md:py-16 bg-[#021127]">
       <h1 className='font-jockey mb-4 md:mb-6 text-xl md:text-4xl'>Contact Us</h1>
       <h3 className='font-jockey text-lg md:text-xl my-4 text-golden'>Astra Home Office</h3>
 
@@ -35,7 +35,7 @@ const Footer = () => {
         <i className='fa-brands fa-whatsapp'></i>
       </div>
       
-      <p className='text-xs sm:text-sm mt-3 sm:mt-10'>&copy; 2024 Astra Restaurant Chain. All Rights Reserved.</p>
+      <p className='text-xs sm:text-sm mt-3 sm:mt-10 text-hover-smoke text-center'>&copy; 2024 Astra Restaurant Chain. All Rights Reserved.</p>
 
     </div>
     </>

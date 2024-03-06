@@ -14,7 +14,7 @@ const Branch = (props) => {
 
             {/* Name and Address */}
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end mb-8 sm:mb-14 mt-2">
-                <h3 className='text-xl md:text-3xl lg:text-5xl font-jockey '>{name}</h3>
+                <h3 className='text-xl md:text-3xl lg:text-5xl font-jockey'>{name}</h3>
                 <p className='text-xs md:text-xl font-jockey'>{address}</p>
             </div>
 
